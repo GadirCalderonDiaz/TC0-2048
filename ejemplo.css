@@ -1,0 +1,102 @@
+.contenedorJuego {
+  place-content: center;
+  width: 600px;
+  height: 790px;
+
+  background-color: lightblue;
+  /*border: 6px solid #060a4b; */
+
+  margin: 0 auto;
+
+}
+.upper{
+  position: relative; left: 0px; top: 10px;
+  width: 550px;
+  height: 90px;
+
+}
+.name{
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  position: relative; top: 10px; left: 225px;
+  width: 190px;
+  height: 50px;
+  color: midnightblue;
+
+ }
+.infoBar{
+  position: relative; top: 5px; left: 225px;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  position: relative; top: 0px; left: 125px;
+  width: 350px;
+  height: 80px;
+  color: rgb(255, 255, 255);
+
+ }
+.playBox{
+  text-align: center;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  position: relative; top: 5px; left: 7.5px;
+  width: 80px;
+  height: 70px;
+  background-color: darkcyan;
+  color: rgb(255, 255, 255);
+
+}
+.scoreBox{
+  text-align: center;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  position: relative; bottom: 65px; left: 92.5px;
+  width: 80px;
+  height: 70px;
+  background-color: midnightblue;
+  color: rgb(255, 255, 255);
+
+}
+.bestBox{
+  text-align: center;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  position: relative; bottom: 135px; left: 177.5px;
+  width: 80px;
+  height: 70px;
+  background-color: midnightblue;
+  color: rgb(255, 255, 255);
+  
+}
+.nextBox{
+  text-align: center;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  position: relative; bottom: 205px; left: 262.5px;
+  width: 80px;
+  height: 70px;
+  background-color: midnightblue;
+  color: rgb(241, 241, 241);
+  
+}
+.table{
+  width: 462px;
+  height: 575px;
+  position: relative; left: 72px; top: 90px;
+
+  background-color:cadetblue;
+}
+.row{
+  width: 453px;
+  height: 103px;
+  position: relative; top: 10px; left: 5px;
+  margin-top: 10px;
+  /*background-color: aliceblue;*/
+  display: flex;
+  flex-direction: row;
+}
+.box{
+  width: 103px;
+  height: 103px;
+  margin: auto;
+  background-color: rgb(135, 189, 190);
+}
+.invBox{
+  width: 103px;
+  height: 103px;
+  margin: auto;
+  /*background-color: rgb(135, 189, 190);*/
+}
